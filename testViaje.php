@@ -1,4 +1,5 @@
 <?php
+
 include_once ("Pasajeros.php");
 include_once ("ResponsableV.php");
 include_once ("Viaje.php");
@@ -13,7 +14,7 @@ $colPasajero=[
 ];
 
 
-//MENU INICIAL
+//MENU INICIAL- carga de datos
 echo "*********************************************************\n";
 echo "Bienvenidx a Viaje Feliz: \n";
 echo "*********************************************************\n";
@@ -57,7 +58,7 @@ $objViaje=new Viaje($cod,$dest,$cMax,$objResponsableV,$colPasajero);
 
 
 /**
- * menu de opciones
+ * menu de opciones-modificacion de datos
  * 
  */
 function menuOpciones(){
